@@ -28,7 +28,13 @@ body {
         }
     }
 
+    #information {
+        display: flex;
+        flex-direction: row;
+    }
+
     #skills img {
+        display: block;
         max-width: 100%;
         width: 70px;
         height: 70px;
