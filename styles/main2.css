@@ -1,0 +1,32 @@
+body {
+  background-color: #a1e5fa;
+}
+body img {
+  max-width: 100%;
+}
+body section img {
+  width: 100px;
+}
+body h1 {
+  font-size: 2em;
+}
+body #skills img {
+  max-width: 100%;
+  width: 70px;
+  height: 70px;
+}
+body div img {
+  max-width: 100%;
+  padding-left: 900px;
+  margin-top: 10px;
+}
+body div#photos {
+  display: grid;
+  justify-content: center;
+  -moz-column-gap: 2;
+       column-gap: 2;
+}
+body div#photos img {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=main2.css.map */
