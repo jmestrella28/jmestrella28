@@ -1,0 +1,62 @@
+$primary-color: #a1e5fa;
+$secondary-color: black;
+$fontsize: 2em;
+
+body {
+    background-color: $primary-color;
+
+
+    img {
+        max-width: 100%;
+    }
+
+    section img {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: $fontsize;
+    }
+
+    #skills img {
+        max-width: 100%;
+        width: 70px;
+        height: 70px;
+    }
+
+    div img {
+        max-width: 100%;
+    }
+
+    div#photos {
+        display: grid;
+        justify-content: center;
+        column-gap: 2;
+
+        img {
+            width:100px;
+            height: 100px;
+        }
+    }
+    // nav {
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: center;
+    //     div {
+    //         margin: 0;
+    //         padding: 0;
+    //         list-style: none;
+    //     }
+
+    //     img {
+    //         border: none;
+    //         width: 30px;
+    //         height: 30px;
+    //     }
+    // }
+
+
+
+
+
+}
