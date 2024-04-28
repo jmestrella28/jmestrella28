@@ -18,6 +18,16 @@ body {
         font-size: $fontsize;
     }
 
+    #intro {
+        display: flex;; 
+
+        img {
+            display: flex;
+            align-self: flex-start;
+            width: 200px;
+        }
+    }
+
     #skills img {
         max-width: 100%;
         width: 70px;
