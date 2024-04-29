@@ -16,11 +16,18 @@
     <!-- JavaScipt Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<!-- <style>
-    img {
-        max-width: 20%; 
+<style>
+    @media only screen and (max-width: 431px) {
+        img {
+            width: 100%;
+        }
+
+        .accordion.px-0.pb-4.ms-5.mt-5.mb-5.container-fluid.bg-light.border {
+            width: 330px;
+            margin: 0px;
+        }
     }
-</style>  -->
+</style>
 
 
 <body>
@@ -64,7 +71,7 @@
 
     <p class="h1 text-center mt-5"> Janna Mae Estrella</p>
 
-    <div class="container text-center" style="display:grid;" id="intro">
+    <div class="container-fluid text-center" style="display:grid;">
         <div id="paragraphs">
             <p class="text-start h4 ms-5 mt-5 w-50"><strong>Age: </strong> 22 </p>
 
@@ -76,7 +83,7 @@
         </div>
 
         <div>
-            <img src="images/janna2.png" id="janna2" class="img-fluid me-5 mb-5 rounded float-end col-2"
+            <img src="images/janna2.png" id="janna2" class="img-fluid rounded float-end col-2"
                 data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
         </div>
     </div>
@@ -133,58 +140,41 @@
         </div>
     </div>
 
-    <!-- 
-    <p class="d-inline-flex gap-1">
-        <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" aria-expanded="false"
-            aria-controls="multiCollapseExample1">
-            <img src="images/photoshop.png" class="img-fluid m-3">
-        </a>
 
 
-        <a class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
-            aria-expanded="false" aria-controls="multiCollapseExample2"><img src="images/lightroom.png"
-            class="img-fluid m-3"></a>
-
-        <a class="btn btn-primary" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false"
-            aria-controls="multiCollapseExample1 multiCollapseExample2"><img src="images/premiere.png"
-            class="img-fluid m-3"></a>
-    </p> -->
 
     <p class="h1 text-center mt-4"> Skills</p>
-    <div class="d-inline-flex gap-1 col-2">
-        <a data-bs-toggle="collapse" href="#collapse1" role="button" aria-expanded="false"
-            aria-controls="collapseExample">
-            <img src="images/photoshop.png" class="img-fluid m-3">
-        </a>
-        <a data-bs-toggle="collapse" href="#collapse2" data-bs-target="#collapseExample" aria-expanded="false"
-            aria-controls="collapseExample">
-            <img src="images/lightroom.png" class="img-fluid m-3">
-        </a>
-        <a data-bs-toggle="collapse" href="#collapse3" data-bs-target="#collapseExample" aria-expanded="false"
-            aria-controls="collapseExample">
-            <img src="images/premiere.png" class="img-fluid m-3">
-        </a>
-        <a data-bs-toggle="collapse" href="#collapse4" data-bs-target="#collapseExample" aria-expanded="false"
-            aria-controls="collapseExample">
-            <img src="images/audition.png" class="img-fluid m-3">
-        </a>
-        <a data-bs-toggle="collapse" href="#collapse5" data-bs-target="#collapseExample" aria-expanded="false"
-            aria-controls="collapseExample">
-            <img src="images/illustrator.png" class="img-fluid m-3">
-        </a>
-        <a data-bs-toggle="collapse" href="#collapse6" data-bs-target="#collapseExample" aria-expanded="false"
-            aria-controls="collapseExample">
-            <img src="images/indesign.png" class="img-fluid m-3">
-        </a>
-        <a data-bs-toggle="collapse" href="#collapse7" data-bs-target="#collapseExample" aria-expanded="false"
-            aria-controls="collapseExample">
-            <img src="images/figma2.png" class="m-3">
-        </a>
-        <a data-bs-toggle="collapse" href="#collapse8" data-bs-target="#collapseExample" aria-expanded="false"
-            aria-controls="collapseExample">
-            <img src="images/Canva.png" class="m-3">
-        </a>
-    </div>
+        <p class="d-inline-flex gap-1 px-5 mx-5 col-8">
+            <a data-bs-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+                <img src="images/photoshop.png" class="img-fluid m-3" style="width:70px; height: 70px">
+            </a>
+            <a data-bs-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapseExample">
+                <img src="images/lightroom.png" class="img-fluid m-3" style="width:70px; height: 70px">
+            </a>
+
+            <a data-bs-toggle="collapse" href="#collapse3" aria-expanded="false" aria-controls="collapseExample">
+                <img src="images/premiere.png" class="img-fluid m-3" style="width:70px; height: 70px">
+            </a>
+
+            <a data-bs-toggle="collapse" href="#collapse4" aria-expanded="false" aria-controls="collapseExample">
+                <img src="images/audition.png" class="img-fluid m-3" style="width:70px; height: 70px">
+            </a>
+            <a data-bs-toggle="collapse" href="#collapse5" aria-expanded="false" aria-controls="collapseExample">
+                <img src="images/illustrator.png" class="img-fluid m-3" style="width:70px; height: 70px">
+            </a>
+
+            <a data-bs-toggle="collapse" href="#collapse6" aria-expanded="false" aria-controls="collapseExample">
+                <img src="images/indesign.png" class="img-fluid m-3" style="width:70px; height: 70px">
+            </a>
+
+            <a data-bs-toggle="collapse" href="#collapse7" aria-expanded="false" aria-controls="collapseExample">
+                <img src="images/figma2.png" class="img-fluid m-3" style="width:70px; height: 70px">
+            </a>
+
+            <a data-bs-toggle="collapse" href="#collapse8" aria-expanded="false" aria-controls="collapseExample">
+                <img src="images/Canva.png" class="img-fluid m-3" style="width:70px; height: 70px">
+            </a>
+        </p>
 
     <div class="collapse" id="collapse1">
         <div class="card card-body">
